@@ -1,0 +1,26 @@
+.intro_text {
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #f90;
+}
+
+.footer .footer_text {
+    color: red;
+}
+
+.signature {
+    font-size: 21px;
+    font-style: italic;
+    font-family: arial, Helvetica, sans-serif;
+    background-color: olive;
+    display: block;
+    margin-top: 21px;
+    padding: 12px;
+}
+
+.container {
+    padding: 20px;
+    margin: 50px 20px;
+}
