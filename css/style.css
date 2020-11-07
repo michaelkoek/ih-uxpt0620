@@ -1,0 +1,127 @@
+:root {
+    --main-color: #1fdd96;
+    --sub-color: #117c93;
+    --shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.4);
+    --container-size: 1200px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVIGATION BAR */
+.navigation-bar {
+    background-color: var(--main-color);
+    /* background-color: transparent; */
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.nav-item:hover {
+    color: olive;
+    text-decoration: underline;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------[ HEADER ]------ */
+.header {
+    /* background-color: #1fdd96; */
+    /* background-image: url('../images/grumpy.jpg'); */
+    background-image: linear-gradient(var(--main-color), var(--main-color),var(--main-color), var(--sub-color));
+    padding: 5% 0 15%;
+}
+
+.header-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+
+.heading-one {
+    font-size: 48px;
+    color: var(--sub-color);
+}
+
+.header-left p {
+    color: white;
+}
+
+.header-right {
+    width: 50%;
+}
+.header-img {
+    width: 100%;
+}
+
+/* ----- COMPONENTS ----- */
+.subscribe-container {
+    display: flex;
+}
+
+.subscribe-container .input {
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 16px;
+    flex: 2;
+    border: 2px solid #929292;
+}
+
+.subscribe-container .btn {
+    flex: 1;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    background-color: #ffe175;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.btn:hover {
+    background-color: #f7b41c;
+}
+
+.container {
+    max-width: var(--container-size);
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+

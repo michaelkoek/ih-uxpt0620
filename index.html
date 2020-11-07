@@ -3,42 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/favicon.png" sizes="16x16">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mq.css" />
+    <link rel="icon" href="./images/favicon.png" />
     <title>I &hearts; turtles</title>
 </head>
-
 <body>
 
+
+  
     <!-- top navigation -->
     <div class="navigation-bar">
-        <span class="logo">I &hearts; Turtles</span>
+        <div class="container nav-flex">
+            <a class="logo" href="#">I &hearts; Turtles</a>
 
-        <nav class="main-navigation">
-            <a href="#">Benefit</a>
-            <a href="#">Pricing</a>
-            <a href="#">TestÎimonial</a>
-        </nav>
+            <!-- // if your logo is a img ==> -->
+            <!-- <a class="logo">
+                <img src="" />
+            </a> -->
+
+            <nav class="main-navigation">
+                <a href="#" class="nav-item">Benefit</a>
+                <a href="#" class="nav-item">Pricing</a>
+                <a href="#" class="nav-item">Testimonial</a>
+            </nav>
+        </div>
     </div>
 
     <!-- Header -->
     <header class="header">
-        <div class="header-left">
-            <h1>When you love turtles, life becomes easier!</h1>
-            <p>
-                Did you know that ortoisest have an exoskeleton AND an endoskeleton. And unlike turtles, tortoises can't
-                swim, but they can hold their breath for a long time!
-            </p>
-            <div class="subscribe-container">
-                <input type="email" placeholder="Your email address" />
-                <button class="btn">Subscribe now</button>
-            </div>
-        </div>
-
-        <div class="header-right">
-            <img src="./images/turtlelogo.svg" title="Mobile Turtle" alt="Turtle on the mobile app" />
-        </div>
+        <div class="container nav-flex nav-flex-rev">
+            <div class="header-left">
+                <h1 class="heading-one">When you love turtles, life becomes easier!</h1>
+                <p>
+                    Did you know that ortoisest have an exoskeleton AND an endoskeleton. And unlike turtles, tortoises can't
+                    swim, but they can hold their breath for a long time!
+                </p>
+                <div class="subscribe-container">
+                    <input type="email" placeholder="Your email address" class="input" />
+                    <button class="btn">Subscribe now</button>
+                </div>
+            </div><!-- /.header-left -->
+    
+            <div class="header-right">
+                <img
+                    class="header-img"
+                    src="./images/turtlelogo.svg"
+                    title="Mobile Turtle"
+                    alt="Turtle on the mobile app"
+                />
+            </div><!-- /.header-right -->
+        </div> <!-- /.container-->
     </header>
-
 
     <main>
         <!-- USP LIST -->

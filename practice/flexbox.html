@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IH Flexbox</title>
+    <style>
+        .box {
+            padding: 25px;
+            margin: 10px;
+            border: 1px solid black;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            flex: 1;
+        }
+        .box1 {
+            background-color: tomato;
+        }
+        .box2 {
+            background-color: #fdac40;
+        }
+        .box3 {
+            background-color: #30e01b;
+        }
+        .box4 {
+            background-color: #44c3ff;
+        }
+        .box5 {
+            background-color: #ff44ce;
+        }
+        .container {
+            background-color: lightslategrey;
+            display: flex;
+            /* flex-direction: row-reverse; */
+            flex-wrap: wrap;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container"> <!-- hamburger bun -->
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+    </div> <!-- / hamburger bun -->
+
+</body>
+</html>

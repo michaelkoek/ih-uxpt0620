@@ -1,0 +1,25 @@
+/* ---- [ MEDIA QUERY ] ----- */
+@media screen and (max-width: 1024px) {  /* mq body */
+    .nav-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-flex-rev {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        margin-right: 0;
+    }
+
+    .subscribe-container {
+        flex-direction: column;
+    }
+
+    .subscribe-container .input {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+} /* closing mq body*/
