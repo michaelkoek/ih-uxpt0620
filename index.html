@@ -10,8 +10,6 @@
 </head>
 <body>
 
-
-  
     <!-- top navigation -->
     <div class="navigation-bar">
         <div class="container nav-flex">
@@ -58,35 +56,46 @@
 
     <main>
         <!-- USP LIST -->
-        <div id="card-container">
-            <div class="card-item">
-                <img src="./images/strongheart.svg" title="Strong heart" alt="a strong heart icon" width="100" />
-                <h3>Tough love</h3>
-                <p>
-                    Some turtles lay eggs in the sand and leave them to hatch on their own. The young turtles make their
-                    way to the top of the sand and scramble
-                </p>
-            </div>
+        <div class="container">
+            <div id="card-container">
+                <div class="card-item">
+                    <img src="./images/strongheart.svg" title="Strong heart" alt="a strong heart icon" />
+                    <h3>Tough love</h3>
+                    <span class="underline"></span>
+                    <p>
+                        Some turtles lay eggs in the sand and leave them to hatch on their own. The young turtles make their
+                        way to the top of the sand and scramble
+                    </p>
+                </div>
+    
+                <div class="card-item">
+                    <img src="./images/manwoman.svg" title="What gender?" alt="gender icon" />
+                    <h3>Is it a boy or a girl?!</h3>
+                    <span class="underline"></span>
+                    <p>
+                        In some species of turtle the temperature determines if the egg will develop into a male or female,
+                        lower temperatures lead to a male while higher temperatures lead to a female.
+                    </p>
+                </div>
+    
+                <div class="card-item">
+                    <img src="./images/delicious.svg" title="delicious and tasty!" alt="delicious icon" />
+                    <h3>Delicious</h3>
+                    <span class="underline"></span>
+                    <p>
+                        The Giant Tortoise did not receive a scientific name for over 300 years due to the failure of
+                        delivery of specimens to Europe for classification due to their great taste, all were eaten on the
+                        voyage back by sailors, even by Charles Darwin.
+                    </p>
+                </div><!-- /.card-item -->
+            </div><!--/#card-container-->
 
-            <div class="card-item">
-                <img src="./images/manwoman.svg" title="What gender?" alt="gender icon" />
-                <h3>Is it a boy or a girl?!</h3>
-                <p>
-                    In some species of turtle the temperature determines if the egg will develop into a male or female,
-                    lower temperatures lead to a male while higher temperatures lead to a female.
-                </p>
-            </div>
+        </div><!-- /.container -->
 
-            <div class="card-item">
-                <img src="./images/delicious.svg" title="delicious and tasty!" alt="delicious icon" />
-                <h3>Delicious</h3>
-                <p>
-                    The Giant Tortoise did not receive a scientific name for over 300 years due to the failure of
-                    delivery of specimens to Europe for classification due to their great taste, all were eaten on the
-                    voyage back by sailors, even by Charles Darwin.
-                </p>
-            </div>
-        </div>
+
+
+
+        
 
         <!-- APP Promotional -->
         <div class="app-promo">
@@ -129,31 +138,41 @@
         </div>
 
         <!-- CTA -->
-        <div class="cta-container">
-            <h2>Subscribe today and get notified first!</h2>
-            <h3>Product launch in: 12 days</h3>
-            <div class="subscribe-container">
-                <input type="email" placeholder="Your email address" />
-                <button class="btn">Subscribe now</button>
-            </div>
-        </div>
+
+        <div class="container">
+
+
+            <div class="cta-container">
+                <h2>Subscribe today and get notified first!</h2>
+                <h3>Product launch in: 12 days</h3>
+                <div class="subscribe-container">
+                    <input type="email" placeholder="Your email address" class="input" />
+                    <button class="btn">Subscribe now</button>
+                </div>
+            </div><!-- /.cta-container-->
+
+
+        </div><!-- /.container -->
 
     </main>
 
-    <footer>
-        <span>
-            &copy;
-            <script>document.write(new Date().getFullYear())</script>
-            Turtles All Rights Reserved
-        </span>
-        <nav>
-            <ul>
-                <li><a href="#">Benefit</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Testimonial</a></li>
-            </ul>
-        </nav>
+    <footer class="footer">
+        <div class="container">
+            <span>
+                &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Turtles All Rights Reserved
+            </span>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Benefit</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                </ul>
+            </nav>
+        </div><!-- /.container -->
     </footer>
+
 
 </body>
 </html>

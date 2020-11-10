@@ -11,6 +11,21 @@
 
     .header-left {
         margin-right: 0;
+        width: 100%;
+    }
+
+    .header-left p {
+        margin: 12px 0;
+    }
+
+    .header-right {
+        width: 100%;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .header-img {
+        width: 50%;
     }
 
     .subscribe-container {
@@ -20,6 +35,14 @@
     .subscribe-container .input {
         margin-right: 0;
         margin-bottom: 16px;
+    }
+
+    .heading-one {
+        font-size: 32px;
+    }
+
+    #card-container {
+        flex-direction: column;
     }
 
 } /* closing mq body*/

@@ -81,6 +81,52 @@ html, body {
     width: 100%;
 }
 
+/* ------ [ CARDS ]  ----- */
+#card-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 5%;
+    box-shadow: 0 10px 10px 10px #00000021;
+    margin-top: -8%;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 3%;
+}
+
+.card-item img {
+    width: 100%;
+}
+
+.underline {
+    width: 60px;
+    height: 5px;
+    background-color: var(--sub-color);
+    margin: 15px 0;
+}
+
+/* ---- [CTA] -----*/
+.cta-container {
+    text-align: center;
+}
+
+/* ---- FOOTER --- */
+.footer {
+    background-color: #348c9e;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+}
+
 /* ----- COMPONENTS ----- */
 .subscribe-container {
     display: flex;
@@ -118,10 +164,10 @@ html, body {
 
 .container {
     max-width: var(--container-size);
-    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 0 20px;
     width: 100%;
+    background-color: red;
 }
 
 
