@@ -41,8 +41,32 @@
         font-size: 32px;
     }
 
+    .subtitle {
+        font-size: 18px;
+        color: darkslategray;
+    }
+
     #card-container {
         flex-direction: column;
+    }
+
+    .app-promo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promo-txt {
+        text-align: left;
+    }
+
+    .promo-btn .btn {
+        width: 100%;
+    }
+
+    .promo-img {
+        width: 15vh;
+        margin-bottom: 16px;
+        margin-right: 0;
     }
 
 } /* closing mq body*/
