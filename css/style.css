@@ -7,7 +7,6 @@
     --secondary-color: orange;
     --third_color: rebeccapurple;
     --animation: all ease-in-out 0.5m;
-
     /* paddings and shadows */
     --shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.4);
     --gradient: linear-gradient(var(--main-color), var(--main-color),var(--main-color), var(--sub-color));
